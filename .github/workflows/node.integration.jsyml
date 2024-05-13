@@ -3,7 +3,7 @@ name: Node Unit Test
 on: [push]
 
 jobs:
-  build:
+  integrationtests:
 
     runs-on: ubuntu-latest
 
