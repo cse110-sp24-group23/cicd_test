@@ -3,10 +3,8 @@ name: Node Unit Test
 on: [push]
 
 jobs:
-  build:
-
+  unittests:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js
