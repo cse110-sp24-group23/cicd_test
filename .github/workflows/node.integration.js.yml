@@ -1,4 +1,4 @@
-name: Node Unit Test
+name: Node Integration Test
 
 on: [push]
 
