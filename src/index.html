@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fun Elements</title>
+    <style>
+        .fun-element {
+            font-size: 24px;
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Fun Page!</h1>
+    <p>Check out these fun elements:</p>
+    <ul>
+        <li class="fun-element">🎉 Fun Element 1</li>
+        <li class="fun-element">🎈 Fun Element 2</li>
+        <li class="fun-element">🎁 Fun Element 3</li>
+    </ul>
+    <script>
+        const funElements = document.querySelectorAll('.fun-element');
+        funElements.forEach(element => {
+            element.addEventListener('click', () => {
+                alert('You clicked a fun element!');
+            });
+        });
+    </script>
+</body>
+</html>
